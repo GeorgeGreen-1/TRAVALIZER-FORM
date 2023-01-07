@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://image.similarpng.com/very-thumbnail/2021/08/Travel-agency-logo-design-template-on-transparent-background-PNG.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./public/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./public/css/style.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <title>Travalizer Form</title>
+</head>
+<body>
+    <main id="main-container">
+
+        <!-- This is the header where the logo is placed -->
+        <div class="header">
+            <img src="./public/assets/images/Union.png" class="logo" alt="logo" />
+            <h1 class="logo-title">Travalizer</h1>
+        </div>
+        <!-- END -->
+        
+        <!-- this is a main image -->
+        <img src="./public/assets/images/mainframe.png" class="image" alt="image" />
+        <!-- END -->
+
+        <!-- Here is a description of the service -->
+        <div class="desc">
+            <h3 class="description">Artificial Intelligence giving you travel recommendations</h3>
+            <p class="desc-par">Welcome Back, Please login to your account</p>
+        </div>
+        <!-- END -->
+
+        <!-- FORM -->
+        <form id="form">
+            <label for="email" class="dis space">Email <input type="email" name="email" class="dis inp-style" placeholder="robert.langster@gmail.com" required /></label>
+            <label for="password" class="dis space">Password <input type="password" 
+                name="password" 
+                class="dis inp-style log" 
+                placeholder="12345678" 
+                minlength="8" 
+                maxlength="12" 
+                autocomplete="current-password"
+                size="12"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$"
+                required /></label>
+
+            <div class="extra">
+                <label><input type="checkbox" checked /> Remember me</label>
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <div class="but-container">
+                <button onclick="" class="login-style">Login</button>
+                <button onclick="" class="signup-style">Sign Up</button>
+            </div>
+
+            <div class="footer">
+                <p class="footer-txt">Or, login with</p>
+                <div class="acc-container">
+                    <a href="#">Facebook</a>
+                    <a href="#">Linked in</a>
+                    <a href="#">Google</a>
+                </div>
+            </div>
+        </form>
+        <!-- END -->
+
+    </main>
+</body>
+</html>
