@@ -8,8 +8,8 @@ body{
 }
     /* MAIN STYLE */
 #main-container{
-    width: 428px;
-    height: 926px;
+    width: 425px;
+    height: 896px;
     border-radius: 24px;
     display: flex;
     flex-direction: column;
