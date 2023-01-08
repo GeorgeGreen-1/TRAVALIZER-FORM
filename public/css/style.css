@@ -155,6 +155,28 @@ body{
 .buttons-container{
     display: flex;
     justify-content: center;
+    gap: 20px;
+}
+    
+.login-style{
+    background: #029664;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+}
+
+.signup-style{
+    border: 1px solid #029664;
+    color: #029664;
+}
+
+.but-clone{
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 178px;
+    height: 48px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 a{
