@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="https://image.similarpng.com/very-thumbnail/2021/08/Travel-agency-logo-design-template-on-transparent-background-PNG.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="./public/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./public/css/style.css" />
-    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script src="https://kit.fontawesome.com/b5b00b4a07.js" crossorigin="anonymous"></script>
     <title>Travalizer Form</title>
 </head>
 <body>
@@ -35,10 +35,16 @@
 
         <!-- FORM -->
         <form id="form">
-            <label for="email" class=" space">Email <input type="email" name="email" class=" inp-style" placeholder="robert.langster@gmail.com" required /></label>
-            <label for="password" class=" space">Password <input type="password" 
+            <label for="email" class="input-column space">Email <input type="email" 
+                name="email" 
+                class="input-column inp-style" 
+                placeholder="robert.langster@gmail.com" 
+                required /></label>
+            <label for="password" class="input-column space">Password 
+                <div class="input-and-icon">
+                    <input type="password" 
                 name="password" 
-                class="inp-style log" 
+                class="inp-style log input-column" 
                 placeholder="12345678" 
                 minlength="8" 
                 maxlength="12" 
@@ -47,12 +53,15 @@
                 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$"
                 required /></label>
 
-            <div class="extra">
-                <label><input type="checkbox" checked /> Remember me</label>
-                <a href="#">Forgot password?</a>
+                <i class="fa-solid fa-eye-slash"></i>
             </div>
 
-            <div class="but-container">
+            <div class="extra">
+                <label for="check" class="check-txt"><input type="checkbox" class="check-box" name="check" checked /> Remember me</label>
+                <a href="#" class="forg-pass">Forgot password?</a>
+            </div>
+
+            <div class="buttons-container">
                 <button onclick="" class="login-style">Login</button>
                 <button onclick="" class="signup-style">Sign Up</button>
             </div>
