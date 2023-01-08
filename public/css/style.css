@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.google.com/icons?icon.query=eye&icon.platform=web');
 
 body{
     display: flex;
@@ -9,7 +10,6 @@ body{
     /* MAIN STYLE */
 #main-container{
     max-width: 360px;
-    max-height: 640px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,4 +79,86 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 20px;
+}
+
+    /* INPUT STYLES */
+.space{
+    font-size: 16px;
+    color: #2F3D4C;
+    font-weight: 600;
+}
+
+.input-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.inp-style{
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #B8D6BF;
+    height: 40px;
+    font-size: 15px;
+    outline: none;
+}
+
+.input-and-icon{
+    border: 1px solid #B8D6BF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 8px;
+    padding-right: 16px;
+}
+
+.log{
+    border: none;
+    width: 100%;
+}
+
+.fa-eye-slash{
+    cursor: pointer;
+}
+
+/* END */
+
+    /* EXTRA CONTAINER STYLE */
+.extra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.check-box{
+    width: 13px;
+    height: 13px;
+    accent-color: #029664;
+}
+
+.check-txt{
+    font-size: 16px;
+    color: #355B3E;
+}
+
+.forg-pass{
+    text-decoration: underline;
+}
+
+    /* END */
+
+    /* BUTTONS STYLE */
+.buttons-container{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color: #355B3E;
+    font-style: normal;
+    font-weight: normal;
 }
