@@ -168,6 +168,7 @@ body{
 .signup-style{
     border: 1px solid #029664;
     color: #029664;
+    margin-bottom: 20px;
 }
 
 .but-clone{
@@ -178,6 +179,34 @@ body{
     border-radius: 8px;
     cursor: pointer;
 }
+
+    /* END */
+
+    /* FOOTER SECTION STYLE */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-txt{
+    font-size: 14px;
+    color: #58745E;
+}
+
+.acc-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.acc-container{
+    font-size: 14px;
+}
+
+    /* END */
 
 a{
     color: #355B3E;
