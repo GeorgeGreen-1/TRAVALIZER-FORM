@@ -19,6 +19,8 @@ body{
     /* IMAGE STYLE */
 .main-image{
     display: flex;
+    width: 100%;
+    height: auto;
 }
 
 .image{
