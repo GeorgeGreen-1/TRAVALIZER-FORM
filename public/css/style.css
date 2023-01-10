@@ -216,10 +216,6 @@ a{
     /* Design for tablet displays */
 @media only screen and (min-width: 600px){
 
-    body{
-        /* background-color: #355B3E; */
-    }
-
     #main-container{
         width: 100%;
         /* height: 100%; */
@@ -233,24 +229,27 @@ a{
 @media only screen and (min-width: 1024px) {
 
     body{
+        padding-top: 2%;
+        display: flex;
         background-color: #355B3E;
-        overflow: hidden;
         align-items: center;
-    }
-
-    #main-container{
-        flex-direction: column;
-        flex-wrap: wrap;
-        max-width: 70%;
-        height: 560px;
-        box-shadow: 0px 72px 80px -48px #223A28;
+        justify-content: center;
+        overflow: hidden;
     }
 
     .left-side{
         width: 40%;
-        justify-content: flex-start;
-        height: 70%;
-        margin: 0;
+        height: 500px;
+        margin: 33px 64px;
+    }
+
+    #main-container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 1000px;
+        height: 90%;
+        box-shadow: 0px 72px 80px -48px #223A28;
     }
 
     .header{
@@ -259,21 +258,24 @@ a{
         max-width: 70%;
     }
 
+    .main-image{
+        display: none;
+    }
+
+    .right-side{
+
+    }
+
     svg path{
         fill: #355B3E;
     }
-
 
     .logo-title{
         color: #355B3e;
     }
 
-    .image{
-        display: none;
-    }
-
-    .sec-height{
-        height: 100%;
+    .footer{
+        flex-direction: row;
     }
 
 }
