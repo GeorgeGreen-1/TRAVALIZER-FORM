@@ -4,6 +4,10 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+.left-side{
+    width: 100%;
+}
+
     /* MAIN STYLE */
 #main-container{
     background-color: #ffffff;
