@@ -207,6 +207,11 @@ body{
 
     /* END */
 
+    /* display none right-side image */
+.right-side{
+    display: none;
+}
+
 a{
     color: #355B3E;
     font-style: normal;
@@ -229,7 +234,6 @@ a{
 @media only screen and (min-width: 1024px) {
 
     body{
-        padding-top: 2%;
         display: flex;
         background-color: #355B3E;
         align-items: center;
@@ -239,16 +243,16 @@ a{
 
     .left-side{
         width: 40%;
-        height: 500px;
-        margin: 33px 64px;
+        height: 90%;
+        margin: 33px 0 33px 50px;
     }
 
     #main-container{
+        margin-top: 2%;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
         width: 1000px;
-        height: 90%;
+        height: 560px;
         box-shadow: 0px 72px 80px -48px #223A28;
     }
 
@@ -256,14 +260,11 @@ a{
         background-color: #ffffff;
         align-items: center;
         max-width: 70%;
+        height: 5%;
     }
 
     .main-image{
         display: none;
-    }
-
-    .right-side{
-
     }
 
     svg path{
@@ -276,6 +277,24 @@ a{
 
     .footer{
         flex-direction: row;
+    }
+
+    .right-side{
+        display: inline-block;
+        width: 550px;
+        height: 550px;
+        margin-top: -10px;
+        height: 560px;
+        width: 550px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+        background-color: aqua;
+    }
+
+    .image{
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+        height: 560px;
     }
 
 }
