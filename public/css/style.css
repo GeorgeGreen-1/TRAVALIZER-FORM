@@ -16,10 +16,6 @@ body{
     flex-wrap: wrap;
 }
 
-.left-side{
-    width: 100%;
-}
-
     /* IMAGE STYLE */
 .main-image{
     display: flex;
