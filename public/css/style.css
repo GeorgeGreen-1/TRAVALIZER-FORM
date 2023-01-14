@@ -240,8 +240,8 @@ a{
     body{
         display: flex;
         background-color: #355B3E;
-        align-items: center;
         justify-content: center;
+        align-items: center;
         overflow: hidden;
     }
 
@@ -281,6 +281,10 @@ a{
 
     .footer{
         flex-direction: row;
+    }
+
+    .acc-container{
+        gap: 25px;
     }
 
     .right-side{
