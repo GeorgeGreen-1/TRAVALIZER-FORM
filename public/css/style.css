@@ -288,23 +288,17 @@ a{
     }
 
     .right-side{
-        display: inline-block;
-        width: 550px;
-        height: 550px;
-        margin-top: -10px;
-        height: 560px;
-        width: 550px;
-        border-top-right-radius: 24px;
-        border-bottom-right-radius: 24px;
-        background-color: aqua;
+       margin-top: -9px;
+       display: flex;
+       max-width: 55%;
+       height: 100%;
+       overflow: hidden;
     }
 
     .image{
         border-top-right-radius: 24px;
         border-bottom-right-radius: 24px;
-        height: 560px;
     }
-
 }
 
 /* END */
