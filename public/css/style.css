@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    width: 100vw;
 }
 
     /* MAIN STYLE */
@@ -235,13 +236,13 @@ a{
 /* END */
 
     /* Design for desktop displays */
-@media screen and (min-width: 1024px) {
-
+@media only screen and (min-width: 1024px) {
     body{
         display: flex;
-        background-color: #355B3E;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #355B3E;
         overflow: hidden;
     }
 
@@ -252,7 +253,6 @@ a{
     }
 
     #main-container{
-        margin-top: 2%;
         flex-direction: row;
         justify-content: space-between;
         width: 1000px;
