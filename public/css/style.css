@@ -2,8 +2,8 @@
 
 body{
     font-family: 'Inter', sans-serif;
-    max-width: 100%;
-    min-width: 100%;
+    max-width: 100vw;
+    min-width: 300px;
 }
 
     /* MAIN STYLE */
@@ -225,8 +225,7 @@ a{
     font-weight: normal;
 }
 
-    /* Design for desktop displays */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1296px){
     body{
         display: flex;
         align-items: center;
@@ -238,23 +237,33 @@ a{
 
     .left-side{
         width: 40%;
-        height: 90%;
-        margin: 33px 0 33px 50px;
+        height: 100%;
+        padding: 48px 64px 60px 64px;
     }
 
     #main-container{
         flex-direction: row;
         justify-content: space-between;
-        width: 1000px;
-        height: 560px;
+        width: 1024px;
+        height: 714px;
         box-shadow: 0px 72px 80px -48px #223A28;
     }
 
     .header{
         background-color: #ffffff;
         align-items: center;
-        max-width: 70%;
+        width: 70%;
         height: 5%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .desc h2{
+        font-size: 24px;
+    }
+
+    .desc p{
+        margin-top: 25px;
     }
 
     .main-image{
@@ -269,26 +278,113 @@ a{
         color: #355B3e;
     }
 
+    .buttons-container{
+        gap: 24px;
+    }
+
     .footer{
+        margin-top: 56px;
         flex-direction: row;
+        font-size: 16px;
     }
 
     .acc-container{
-        gap: 25px;
+        gap: 29px;
     }
 
     .right-side{
-       margin-top: -9px;
        display: flex;
-       max-width: 55%;
+       width: 60%;
        height: 100%;
-       overflow: hidden;
+       border-top-right-radius: 24px;
+       border-bottom-right-radius: 24px;
     }
 
-    .image{
-        border-top-right-radius: 24px;
-        border-bottom-right-radius: 24px;
+}
+
+    /* Design for desktop displays */
+@media only screen and (min-width: 1299px) {
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #355B3E;
+        overflow: hidden;
     }
+
+    .left-side{
+        width: 40%;
+        height: 100%;
+        padding: 48px 64px 60px 64px;
+    }
+
+    #main-container{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1296px;
+        height: 714px;
+        box-shadow: 0px 72px 80px -48px #223A28;
+    }
+
+    .header{
+        background-color: #ffffff;
+        align-items: center;
+        width: 70%;
+        height: 5%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    /* description style */
+    .desc h2{
+        font-size: 24px;
+    }
+
+    .desc p{
+        margin-top: 25px;
+    }
+    /* end */
+
+    /* main image hide */
+    .main-image{
+        display: none;
+    }
+    /* end */
+
+    /* logo color change */
+    svg path{
+        fill: #355B3E;
+    }
+
+    .logo-title{
+        color: #355B3e;
+    }
+    /* end */
+
+    .buttons-container{
+        gap: 24px;
+    }
+
+    .footer{
+        margin-top: 56px;
+        flex-direction: row;
+        font-size: 16px;
+    }
+
+    .acc-container{
+        gap: 29px;
+    }
+
+    /* right side styles */
+    .right-side{
+       display: flex;
+       width: 60%;
+       height: 100%;
+       border-top-right-radius: 24px;
+       border-bottom-right-radius: 24px;
+    }
+
 }
 
 /* END */
