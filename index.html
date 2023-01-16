@@ -48,6 +48,7 @@
         <form id="form">
             <label for="email" class="input-column space">Email <input type="email" 
                 name="email" 
+                id="email"
                 class="input-column inp-style" 
                 placeholder="robert.langster@gmail.com" 
                 required /></label>
@@ -55,6 +56,7 @@
                 <div class="input-and-icon">
                     <input type="password" 
                 name="password" 
+                id="password"
                 class="inp-style log input-column" 
                 placeholder="12345678" 
                 minlength="8" 
@@ -62,13 +64,15 @@
                 autocomplete="current-password"
                 size="12"
                 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$"
-                required /></label>
+                required />
+            </label>
 
                 <i class="fa-solid fa-eye-slash"></i>
+                
             </div>
 
             <div class="extra">
-                <label for="check" class="check-txt"><input type="checkbox" class="check-box" name="check" checked /> Remember me</label>
+                <label for="check" class="check-txt"><input type="checkbox" class="check-box" name="check" id="check" checked /> Remember me</label>
                 <a href="#" class="forg-pass">Forgot password?</a>
             </div>
 
